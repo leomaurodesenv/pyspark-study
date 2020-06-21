@@ -1,4 +1,5 @@
 # PySpark Study
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/646badea2aa8496ab3c24ac90decfc22)](https://www.codacy.com/manual/leomaurodesenv/pyspark-study?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=leomaurodesenv/pyspark-study&amp;utm_campaign=Badge_Grade)
    
 This reposotory contains a simple coding to study [Spark](spark.apache.org/).   
 -   PySpark is the Python API for Spark.

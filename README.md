@@ -7,9 +7,9 @@ This reposotory contains a simple coding to study [Spark](spark.apache.org/).
 ---
 ## Challenges
 
-1.   Read a CSV file and convert columns to rows; simulating a columnar table.
-2.   Removing duplicates based on `id` and last update `update_date`.
-3.   Mapping the data type based on a JSON configuration file.
+1.  Read a CSV file and convert columns to rows; simulating a columnar table.
+2.  Removing duplicates based on `id` and last update `update_date`.
+3.  Mapping the data type based on a JSON configuration file.
 
 ---
 ## Coding

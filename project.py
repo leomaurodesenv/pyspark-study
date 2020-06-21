@@ -33,7 +33,6 @@ warnings.filterwarnings("ignore")
 #-------------------------------------------------------
 #- 1. Converting file - Colunar
 #-------------------------------------------------------
-from pyspark import SQLContext
 from pyspark.sql import SparkSession
 from pyspark.sql.types import *
 
@@ -54,7 +53,6 @@ df = spark.read.csv(input_file, header=True)
 # Colunar table - Casting
 def data_casting(df, column):
     _collection = df.select(column).rdd.map(lambda x: x).collect()
-    _array = [str(row[column]) for row in _collection]
     return [column] + [str(row[column]) for row in _collection]
 
 
